@@ -1,10 +1,11 @@
 
 function mostrar()
 {
-	var ancho = prompt("ingrese lo ancho");
-	ancho = parseInt(ancho);
-	var largo = prompt("ingrese lo largo");
-	largo = parseInt(largo);
-	var perimetro = (ancho + largo) * 2;
-	alert("el perimetro es: "+perimetro);
+	var base = prompt("ingrese la base");
+	base = parseInt(base);
+	var altura = prompt("ingrese la altura");
+	altura = parseInt(altura);
+	var perimetro = base*3;
+	var superficie = base*altura/2;
+	alert("la superficie es: "+superficie+" y el perimetro es: "+perimetro);
 }
